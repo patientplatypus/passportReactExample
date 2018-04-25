@@ -118,8 +118,8 @@
       });
     });
     app.get('/logout', function(req, res) {
-        req.logout();//method added by passport to support logout
-        res.redirect('/');
+      req.logout();//method added by passport to support logout
+      res.redirect('/');
     });
 
     // app.get('/doctorRoute', passport.authenticate('idcs', { successRedirect: '/successRedirect', failureRedirect: '/' }));
